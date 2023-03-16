@@ -10,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.Editable; // for EditText event handling
-import android.text.TextWatcher; // EditText listener
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.widget.EditText;
-import android.widget.TextView; // for displaying text
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
