@@ -12,6 +12,7 @@ import android.widget.TextView; // for displaying text
 
 public class MainActivity extends AppCompatActivity {
 
+    //dodanie wagi oraz wzrostu i inicjalizacja defaultowych wartosci
     private double weight = 0.0;
     private double height = 0.0;
     private TextView heightTextView;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView bmiTextView;
 
 
+    //przypisanie widoków na podstawie id z activity_main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         bmiTextView = (TextView) findViewById(R.id.bmiTextView);
         bmiTextView.setText(Double.toString(0.0));
 
+        //dodanie listenerów do pól z inputem textu
         EditText weightEditText =
                 (EditText) findViewById(R.id.weightEditText);
         weightEditText.addTextChangedListener(weightEditTextWatcher);
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         heightEditText.addTextChangedListener(heightEditTextWatcher);
     }
 
+    //obliczanie BMI
     private void calculate() {
         double bmi = weight / (height * height);
         if(bmi>=25 || bmi<18.5) bmiTextView.setBackgroundColor(Color.parseColor("RED"));
@@ -44,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         bmiTextView.setText(Double.toString(bmi));
     }
 
+    //konfiguracja listenera dla wagi
     private final TextWatcher weightEditTextWatcher = new TextWatcher() {
-
         @Override
         public void onTextChanged(CharSequence s, int start,
                                   int before, int count) {
@@ -68,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    //konfiguracja listenera dla wzrostu
     private final TextWatcher heightEditTextWatcher = new TextWatcher() {
         @Override
         public void onTextChanged(CharSequence s, int start,
@@ -83,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
+            //obliczanie BMI dopiero po aktualizacji pola ze wzrostem
             calculate();
         }
 
