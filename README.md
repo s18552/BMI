@@ -1,4 +1,4 @@
 # BMI
-![Screenshot](bm-start.jpg)
-![Screenshot](bmi1.jpg)
-![Screenshot](bmi2.jpg)
+<img alt="Screenshot" src="bm-start.jpg"/>
+<img alt="Screenshot" src="bmi1.jpg"/>
+<img alt="Screenshot" src="bmi2.jpg"/>
