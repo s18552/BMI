@@ -1,3 +1,9 @@
+/**
+ * Jakub Słomiński, S18552
+ * Kalkulator BMI
+ * */
+
+
 package com.example.bmi;
 
 import androidx.appcompat.app.AppCompatActivity;
