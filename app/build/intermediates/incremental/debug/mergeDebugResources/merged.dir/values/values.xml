@@ -382,12 +382,30 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Kalkulator BMI</string>
+    <string name="app_name">fitnesiarz</string>
     <string name="bmi">Wynik BMI: </string>
+    <string name="enter_age">Podaj wiek </string>
+    <string name="enter_gender">Podaj płeć</string>
     <string name="enter_height">Podaj wzrost (m)</string>
+    <string name="enter_height2">Podaj wzrost (cm)</string>
     <string name="enter_weight">Podaj wagę (kg)</string>
+    <string name="facet">facet</string>
+    <string name="kcal">kcal</string>
+    <string name="kobieta">kobieta</string>
+    <string name="oblicz_bmi">Oblicz BMI</string>
+    <string name="przepis">
+        Spaghetti \n
+        1.Na głębokiej patelni rozgrzej około 2 łyżki oliwy z oliwek.\n
+        2. Na rozgrzaną patelnię wrzuć czosnek i cebulę, a po chwili dodaj mięso, rozdrabniaj je np. widelcem, tak aby nie powstały grube mięsne grudki.\n
+        3. Do mięsa dodaj zioła oraz koncentrat. Całość podgrzewaj przez chwilę, dodaj passatę (przecier pomidorowy), gotuj na małym ogniu około 30 minut.\n
+        4. Makaron ugotuj al dente, podawaj go z sosem, serem, i bazylią.\n \n \n
+        Jajecznica po czesku\n
+        Rozgrzej patelnię i połóż na niej masło. Gdy się roztopi, ostrożnie wbij trzy jajka - tak, by żółtka się nie uszkodziły. Posól je i popieprz. Białka możesz delikatnie mieszać drewnianą łyżką, ale nie dotykaj żółtek. Dopiero kiedy białka zetną się, rozwal żółtka i delikatnie przemieszaj. Po chwili zdejmij całość z ognia i poczekaj, aż dojdzie
+    </string>
     <string name="search_menu_title">Search</string>
+    <string name="sprawdz_kcal">sprawdź ile możesz zjeść</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="zobacz_jedzenie">Zobacz co mozesz zjesc</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -1,87 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<GridLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity"
-    android:columnCount="2"
-    android:useDefaultMargins="true">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
 
-    <EditText
+
+
+    <Button
+        android:id="@+id/button_calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:id="@+id/weightEditText"
-        android:layout_column="0"
-        android:digits="0123456789"
-        android:maxLength="6"
-        android:ems="10"
-        android:layout_columnSpan="2"/>
+        android:text="@string/oblicz_bmi" />
 
-    <TextView
+    <Button
+        android:id="@+id/button_allowed_food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/weightTextView"
-        android:layout_row="0"
-        android:layout_column="0"
-        android:layout_columnSpan="2"
-        android:hint="@string/enter_weight"
-        android:layout_gravity="fill_horizontal"
-        android:background="@color/amount_background"
-        android:padding="@dimen/textview_padding"
-        android:elevation="@dimen/elevation"/>
+        android:text="@string/sprawdz_kcal" />
 
-
-    <EditText
+    <Button
+        android:id="@+id/button_recipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:id="@+id/heightEditText"
-        android:layout_column="0"
-        android:digits="0123456789"
-        android:maxLength="6"
-        android:ems="10"
-        android:layout_columnSpan="2"/>
+        android:text="@string/zobacz_jedzenie" />
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/heightTextView"
-        android:layout_row="1"
-        android:layout_column="0"
-        android:layout_columnSpan="2"
-        android:hint="@string/enter_height"
-        android:layout_gravity="fill_horizontal"
-        android:background="@color/amount_background"
-        android:padding="@dimen/textview_padding"
-        android:elevation="@dimen/elevation"/>
+        android:src="@drawable/malina"
+        />
 
-
-    <TextView
-        android:id="@+id/totalLabelTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bmi"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/bmiTextView"
-        android:maxLength="5"
-        android:layout_gravity="fill_horizontal"
-        android:background="@color/result_background"
-        android:gravity="center"
-        android:padding="@dimen/textview_padding"
-        android:elevation="@dimen/elevation"/>
-
-</GridLayout>
+</LinearLayout>

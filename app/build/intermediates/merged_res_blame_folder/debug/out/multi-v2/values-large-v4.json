@@ -4,7 +4,7 @@
             "outputFile": "com.example.bmi.app-mergeDebugResources-7:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\db258c08714b304cee2cc3aab4795a59\\transformed\\appcompat-1.0.2\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\51dc6248837d94d69141c9e41c648705\\transformed\\appcompat-1.0.2\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

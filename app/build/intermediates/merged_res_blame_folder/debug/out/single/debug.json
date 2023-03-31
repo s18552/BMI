@@ -8,8 +8,16 @@
         "source": "com.example.bmi.app-main-11:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.bmi.app-merged_res-9:/layout_bmi_calc.xml.flat",
+        "source": "com.example.bmi.app-main-11:/layout/bmi_calc.xml"
+    },
+    {
         "merged": "com.example.bmi.app-merged_res-9:/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "com.example.bmi.app-main-11:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.bmi.app-merged_res-9:/drawable_malina.jpg.flat",
+        "source": "com.example.bmi.app-main-11:/drawable/malina.jpg"
     },
     {
         "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -30,6 +38,10 @@
     {
         "merged": "com.example.bmi.app-merged_res-9:/layout_activity_main.xml.flat",
         "source": "com.example.bmi.app-main-11:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.bmi.app-merged_res-9:/layout_recipe.xml.flat",
+        "source": "com.example.bmi.app-main-11:/layout/recipe.xml"
     },
     {
         "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -54,6 +66,10 @@
     {
         "merged": "com.example.bmi.app-merged_res-9:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "com.example.bmi.app-main-11:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.bmi.app-merged_res-9:/layout_allowed_food.xml.flat",
+        "source": "com.example.bmi.app-main-11:/layout/allowed_food.xml"
     },
     {
         "merged": "com.example.bmi.app-merged_res-9:/mipmap-xhdpi_ic_launcher_round.png.flat",

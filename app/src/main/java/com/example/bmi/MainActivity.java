@@ -1,108 +1,54 @@
-/**
- * Jakub Słomiński, S18552
- * Kalkulator BMI
- * */
-
-
 package com.example.bmi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
-import android.widget.TextView;
-
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    //dodanie wagi oraz wzrostu i inicjalizacja defaultowych wartosci
-    private double weight = 0.0;
-    private double height = 0.0;
-    private TextView heightTextView;
-    private TextView weightTextView;
-    private TextView bmiTextView;
-
-
-    //przypisanie widoków na podstawie id z activity_main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        weightTextView = (TextView) findViewById(R.id.weightTextView);
-        heightTextView = (TextView) findViewById(R.id.heightTextView);
-        bmiTextView = (TextView) findViewById(R.id.bmiTextView);
-        bmiTextView.setText(Double.toString(0.0));
+        Button bmiCalculator = (Button) findViewById(R.id.button_calc);
+        Button allowedFood = (Button) findViewById(R.id.button_allowed_food);
+        Button recipe = (Button) findViewById(R.id.button_recipe);
 
-        //dodanie listenerów do pól z inputem textu
-        EditText weightEditText =
-                (EditText) findViewById(R.id.weightEditText);
-        weightEditText.addTextChangedListener(weightEditTextWatcher);
-        EditText heightEditText =
-                (EditText) findViewById(R.id.heightEditText);
-        heightEditText.addTextChangedListener(heightEditTextWatcher);
+        bmiCalculator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openBmiCalculator();
+            }
+        });
+
+        allowedFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAllowedFood();
+            }
+        });
+        recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRecipe();
+            }
+        });
     }
 
-    //obliczanie BMI
-    private void calculate() {
-        double bmi = weight / (height * height);
-        if(bmi>=25 || bmi<18.5) bmiTextView.setBackgroundColor(Color.parseColor("RED"));
-        else bmiTextView.setBackgroundColor(Color.parseColor("GREEN"));
-        bmiTextView.setText(Double.toString(bmi));
+    public void openBmiCalculator() {
+        Intent intent = new Intent(this, BmiCalculator.class);
+        startActivity(intent);
     }
-
-    //konfiguracja listenera dla wagi
-    private final TextWatcher weightEditTextWatcher = new TextWatcher() {
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-            try {
-                weight = Double.parseDouble(s.toString()) / 100.0;
-                weightTextView.setText(Double.toString(weight));
-            } catch (NumberFormatException e) {
-                weight = 0.0;
-            }
-
-        }
-
-        @Override
-        public void afterTextChanged(Editable s) {
-        }
-
-        @Override
-        public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) {
-        }
-    };
-
-    //konfiguracja listenera dla wzrostu
-    private final TextWatcher heightEditTextWatcher = new TextWatcher() {
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-
-            try {
-                height = Double.parseDouble(s.toString()) / 100.0;
-                heightTextView.setText(Double.toString(height));
-            } catch (NumberFormatException e) {
-                height = 0.0;
-            }
-        }
-
-        @Override
-        public void afterTextChanged(Editable s) {
-            //obliczanie BMI dopiero po aktualizacji pola ze wzrostem
-            calculate();
-        }
-
-        @Override
-        public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) {
-        }
-    };
+    public void openAllowedFood() {
+        Intent intent = new Intent(this, AllowedFood.class);
+        startActivity(intent);
+    }
+    public void openRecipe() {
+        Intent intent = new Intent(this, Recipe.class);
+        startActivity(intent);
+    }
 }
-
-

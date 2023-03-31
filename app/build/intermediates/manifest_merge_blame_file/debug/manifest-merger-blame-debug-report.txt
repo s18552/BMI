@@ -6,42 +6,63 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml
+8-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml
+9-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:4:5-29:19
 12        android:allowBackup="true"
-12-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:5:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\f60b1012b15bfecaca36ef0a83aa8640\transformed\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\f4cc8086f80045fac9faf3df8c6f1f90\transformed\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:6:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:7:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:8:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:9:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.bmi.MainActivity" >
-21-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:12:19-62
-22            <intent-filter>
-22-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\kubsl\Desktop\bmi\bmi\bmi\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+20-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:10:9-40
+21        <activity
+21-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:11:9-13:40
+22            android:name="com.example.bmi.BmiCalculator"
+22-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:12:13-42
+23            android:exported="false" />
+23-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:13:13-37
+24        <activity
+24-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:14:9-16:40
+25            android:name="com.example.bmi.AllowedFood"
+25-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:15:13-40
+26            android:exported="false" />
+26-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:16:13-37
+27        <activity
+27-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:17:9-19:40
+28            android:name="com.example.bmi.Recipe"
+28-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:18:13-35
+29            android:exported="false" />
+29-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:19:13-37
+30        <activity
+30-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:20:9-28:20
+31            android:name="com.example.bmi.MainActivity"
+31-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:21:13-41
+32            android:exported="true" >
+32-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:22:13-36
+33            <intent-filter>
+33-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:24:17-69
+34-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:26:17-77
+36-->C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

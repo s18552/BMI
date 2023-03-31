@@ -18,7 +18,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.bmi.MainActivity" >
+        <activity
+            android:name="com.example.bmi.BmiCalculator"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmi.AllowedFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmi.Recipe"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmi.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
