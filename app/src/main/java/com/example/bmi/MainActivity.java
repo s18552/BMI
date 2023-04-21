@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Button allowedFood = (Button) findViewById(R.id.button_allowed_food);
         Button recipe = (Button) findViewById(R.id.button_recipe);
 
+        Button button_quiz = (Button) findViewById(R.id.button_quiz);
+        Button button_graph = (Button) findViewById(R.id.button_graph);
+
         bmiCalculator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
                 openRecipe();
             }
         });
+        button_quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openQuiz();
+            }
+        });
+        button_graph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openGraph();
+            }
+        });
     }
 
     public void openBmiCalculator() {
@@ -49,6 +64,15 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openRecipe() {
         Intent intent = new Intent(this, Recipe.class);
+        startActivity(intent);
+    }
+
+    public void openQuiz() {
+        Intent intent = new Intent(this, Quiz.class);
+        startActivity(intent);
+    }
+    public void openGraph() {
+        Intent intent = new Intent(this, Graph.class);
         startActivity(intent);
     }
 }

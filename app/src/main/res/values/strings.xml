@@ -21,4 +21,20 @@
     <string name="facet">facet</string>
     <string name="kobieta">kobieta</string>
     <string name="enter_gender">Podaj płeć</string>
+
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">InCorrect!</string>
+    <string name="first_score_text">Correct!</string>
+    <string name="correct_toast_message">Correct!</string>
+    <string name="incorrect_toast_message">InCorrect!</string>
+    <string name="p1">Kawa przyczynia się do niedoborów magnezu??</string>
+    <string name="p2">Brązowy cukier jest zdrowszy niż biały</string>
+    <string name="p3">Czy zestawienie ogórków i pomidorów w jednej potrawie powoduje, że tracą one wartości odżywcze?</string>
+    <string name="p4">Czy grejpfruty zawierają ujemne kalorie?</string>
+    <string name="p5">Węglowodany złożone są uważane za "złe węglowodany" ponieważ nie mają wartości odżywczych.</string>
+    <string name="p6">Picie 3 litrów wody jest zdrowe?</string>
+    <string name="false1">Fałsz</string>
+    <string name="true1">Prawda</string>
+    <string name="display_score">Rozpocznij grę</string>
+    <string name="Pytanie">Question Text</string>
 </resources>

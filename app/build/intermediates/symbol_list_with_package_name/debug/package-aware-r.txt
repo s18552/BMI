@@ -265,6 +265,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr showAsAction
 attr showDividers
 attr showText
@@ -409,6 +413,7 @@ color material_grey_850
 color material_grey_900
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -541,6 +546,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen textview_padding
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -657,6 +666,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id action0
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -688,10 +698,16 @@ id beginning
 id blocking
 id bmiTextView
 id bottom
+id btntrue
 id buttonPanel
 id button_allowed_food
 id button_calc
+id button_false
+id button_graph
+id button_quiz
 id button_recipe
+id button_true
+id cancel_action
 id center
 id center_horizontal
 id center_vertical
@@ -712,6 +728,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id end_padder
 id expand_activities_button
 id expanded_menu
 id fill
@@ -719,6 +736,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id gone
+id graph
 id group_divider
 id groups
 id heightEditText
@@ -737,6 +755,7 @@ id line1
 id line3
 id listMode
 id list_item
+id media_actions
 id message
 id middle
 id multiply
@@ -784,6 +803,7 @@ id src_in
 id src_over
 id standard
 id start
+id status_bar_latest_event_content
 id submenuarrow
 id submit_area
 id tabMode
@@ -802,6 +822,8 @@ id top
 id topPanel
 id totalLabelTextView
 id totalTextView
+id txtQuestion
+id txtQuizStats
 id uniform
 id up
 id useLogo
@@ -846,12 +868,23 @@ layout abc_tooltip
 layout activity_main
 layout allowed_food
 layout bmi_calc
+layout graph
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout quiz
 layout recipe
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -859,6 +892,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Pytanie
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -900,19 +934,33 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string bmi
+string correct_text
+string correct_toast_message
+string display_score
 string enter_age
 string enter_gender
 string enter_height
 string enter_height2
 string enter_weight
 string facet
+string false1
+string first_score_text
+string incorrect_text
+string incorrect_toast_message
 string kcal
 string kobieta
 string oblicz_bmi
+string p1
+string p2
+string p3
+string p4
+string p5
+string p6
 string przepis
 string search_menu_title
 string sprawdz_kcal
 string status_bar_notification_info_overflow
+string true1
 string zobacz_jedzenie
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1152,9 +1200,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -1289,6 +1342,7 @@ styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchSt
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

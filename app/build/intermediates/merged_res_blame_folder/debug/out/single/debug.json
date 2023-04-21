@@ -1,78 +1,98 @@
 [
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_graph.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\graph.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/layout_bmi_calc.xml.flat",
-        "source": "com.example.bmi.app-main-11:/layout/bmi_calc.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_recipe.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\recipe.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/drawable_malina.jpg.flat",
-        "source": "com.example.bmi.app-main-11:/drawable/malina.jpg"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_bmi_calc.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\bmi_calc.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_activity_4.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\activity_4.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.bmi.app-pngs-4:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.bmi.app-main-11:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/layout_activity_main.xml.flat",
-        "source": "com.example.bmi.app-main-11:/layout/activity_main.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\drawable_malina.jpg.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\drawable\\malina.jpg"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/layout_recipe.xml.flat",
-        "source": "com.example.bmi.app-main-11:/layout/recipe.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_quiz.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\quiz.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/layout_allowed_food.xml.flat",
-        "source": "com.example.bmi.app-main-11:/layout/allowed_food.xml"
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-pngs-6:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.bmi.app-merged_res-9:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.bmi.app-main-11:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.example.bmi.app-merged_res-11:/layout_quiz.xml.flat",
+        "source": "com.example.bmi.app-main-13:/layout/quiz.xml"
+    },
+    {
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_activity_5.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\activity_5.xml"
+    },
+    {
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-merged_res-11:\\layout_allowed_food.xml.flat",
+        "source": "C:\\Users\\kubsl\\.gradle\\daemon\\7.5\\com.example.bmi.app-main-13:\\layout\\allowed_food.xml"
     }
 ]

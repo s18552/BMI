@@ -27,6 +27,17 @@
         android:layout_height="wrap_content"
         android:text="@string/zobacz_jedzenie" />
 
+    <Button
+        android:id="@+id/button_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wejdz w quiz" />
+    <Button
+        android:id="@+id/button_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zobacz diagram BMI" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

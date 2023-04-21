@@ -15,6 +15,12 @@
             android:name=".AllowedFood"
             android:exported="false" />
         <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Graph"
+            android:exported="false" />
+        <activity
             android:name=".Recipe"
             android:exported="false" />
         <activity

@@ -1,17 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\kubsl\.gradle\caches\transforms-3\51dc6248837d94d69141c9e41c648705\transformed\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kubsl\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\kubsl\.gradle\caches\transforms-3\3042348a4e543dcb1f7835679137acde\transformed\jetified-graphview-4.2.2\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\5675b3009f8a286376d2ee267b9a035e\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\d58132105ab173fe617d3377fd03fd9b\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\5eff1425e4617f572a315b3a04b185a4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\bf2a6d46c92d2b1b015ce44f75d834ab\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\032c6683158636c5c4c024afd84ddef4\transformed\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\3fa6512a9d4dee4adc600ab35404b8df\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\f967ef6252e4ec79b8a489b7b97a4a74\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,27 +34,29 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kubsl\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\b31efb9b62a939b56fecae300029b614\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\a7154ee6fec4f38ca05d36393363001c\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:4:5-29:19
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:4:5-35:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kubsl\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kubsl\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\kubsl\.gradle\caches\transforms-3\3042348a4e543dcb1f7835679137acde\transformed\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\kubsl\.gradle\caches\transforms-3\3042348a4e543dcb1f7835679137acde\transformed\jetified-graphview-4.2.2\AndroidManifest.xml:11:5-12:19
 MERGED from [androidx.core:core:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\f4cc8086f80045fac9faf3df8c6f1f90\transformed\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\f4cc8086f80045fac9faf3df8c6f1f90\transformed\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\f4e8c21dde80b933df731c7e0c62c4fb\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
@@ -59,59 +64,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ku
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\f4cc8086f80045fac9faf3df8c6f1f90\transformed\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:7:9-41
 	android:roundIcon
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:8:9-54
 	android:icon
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:6:9-43
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:6:9-43
 	android:allowBackup
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:5:9-35
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.bmi.BmiCalculator
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:11:9-13:40
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:11:9-13:40
 	android:exported
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:13:13-37
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:12:13-42
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:12:13-42
 activity#com.example.bmi.AllowedFood
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:14:9-16:40
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:15:13-40
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:15:13-40
+activity#com.example.bmi.Quiz
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:18:13-33
+activity#com.example.bmi.Graph
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:21:13-34
 activity#com.example.bmi.Recipe
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:18:13-35
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:24:13-35
 activity#com.example.bmi.MainActivity
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:exported
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml:32:27-74
 uses-sdk
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\kubsl\.gradle\caches\transforms-3\51dc6248837d94d69141c9e41c648705\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\kubsl\.gradle\caches\transforms-3\51dc6248837d94d69141c9e41c648705\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kubsl\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kubsl\.gradle\caches\transforms-3\13e16167675b0703369ad876dcfd0cfb\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\kubsl\.gradle\caches\transforms-3\3042348a4e543dcb1f7835679137acde\transformed\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\kubsl\.gradle\caches\transforms-3\3042348a4e543dcb1f7835679137acde\transformed\jetified-graphview-4.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\44d66019629001601723e3e8e6792438\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\5675b3009f8a286376d2ee267b9a035e\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\5675b3009f8a286376d2ee267b9a035e\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\d58132105ab173fe617d3377fd03fd9b\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
@@ -124,6 +145,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\kubsl\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\kubsl\.gradle\caches\transforms-3\032c6683158636c5c4c024afd84ddef4\transformed\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\f4e7914e58ba093567760f9d22f3626d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\abedd8388bdbd55803e370bace33339f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\064f6efcf72e45025c96c41bb0313fb3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\3fa6512a9d4dee4adc600ab35404b8df\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -162,13 +185,13 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kubsl\.gradle\cache
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\a7154ee6fec4f38ca05d36393363001c\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kubsl\.gradle\caches\transforms-3\fe726d578f90e61f945e51ad06a99ee0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kubsl\Desktop\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kubsl\Desktop\Studia\pamo\bmi2\bmi\app\src\main\AndroidManifest.xml

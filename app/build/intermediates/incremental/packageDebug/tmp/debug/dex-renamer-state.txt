@@ -1,9 +1,9 @@
-#Fri Mar 31 15:26:19 CEST 2023
-base.2=C\:\\Users\\kubsl\\Desktop\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+#Fri Apr 21 16:48:45 CEST 2023
+base.2=C\:\\Users\\kubsl\\Desktop\\Studia\\pamo\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 path.2=12/classes.dex
-base.1=C\:\\Users\\kubsl\\Desktop\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\kubsl\\Desktop\\Studia\\pamo\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\kubsl\\Desktop\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\kubsl\\Desktop\\Studia\\pamo\\bmi2\\bmi\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

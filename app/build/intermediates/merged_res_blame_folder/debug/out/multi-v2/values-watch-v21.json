@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.bmi.app-mergeDebugResources-7:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.bmi.app-mergeDebugResources-9:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\51dc6248837d94d69141c9e41c648705\\transformed\\appcompat-1.0.2\\res\\values-watch-v21\\values-watch-v21.xml",

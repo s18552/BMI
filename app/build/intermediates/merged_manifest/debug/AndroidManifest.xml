@@ -25,6 +25,12 @@
             android:name="com.example.bmi.AllowedFood"
             android:exported="false" />
         <activity
+            android:name="com.example.bmi.Quiz"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bmi.Graph"
+            android:exported="false" />
+        <activity
             android:name="com.example.bmi.Recipe"
             android:exported="false" />
         <activity

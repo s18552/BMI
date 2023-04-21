@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.bmi.app-mergeDebugResources-7:/values-sr/values-sr.xml",
+            "outputFile": "com.example.bmi.app-mergeDebugResources-9:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\f4cc8086f80045fac9faf3df8c6f1f90\\transformed\\core-1.0.1\\res\\values-sr\\values-sr.xml",

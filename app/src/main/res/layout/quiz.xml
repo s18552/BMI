@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btntrue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz">
+
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:text="@string/Pytanie"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/txtQuizStats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:text="@string/display_score"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/true1"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/button_false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/false1"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
