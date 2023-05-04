@@ -1,141 +1,105 @@
-package com.example.bmi;
+package com.example.bmi
 
-import android.annotation.SuppressLint;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.annotation.SuppressLint
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.View
+import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class AllowedFood extends AppCompatActivity {
-
-    private double weight = 0.0;
-    private double height = 0.0;
-    private int age = 0;
-
-    private TextView heightTextView;
-    private TextView weightTextView;
-    private TextView ageTextView;
-    private TextView totalTextView;
-
-
-
+class AllowedFood : AppCompatActivity() {
+    private var weight = 0.0
+    private var height = 0.0
+    private var age = 0
+    private var heightTextView: TextView? = null
+    private var weightTextView: TextView? = null
+    private var ageTextView: TextView? = null
+    private var totalTextView: TextView? = null
     @SuppressLint("MissingInflatedId")
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.allowed_food);
-
-
-        weightTextView = (TextView) findViewById(R.id.weightTextView);
-        heightTextView = (TextView) findViewById(R.id.heightTextView);
-        ageTextView = (TextView) findViewById(R.id.ageTextView);
-        totalTextView = (TextView) findViewById(R.id.totalTextView);
-        totalTextView.setText(String.format(0 + ""));
-
-
-        EditText weightEditText =
-                (EditText) findViewById(R.id.weightEditText);
-        weightEditText.addTextChangedListener(weightEditTextWatcher);
-        EditText heightEditText =
-                (EditText) findViewById(R.id.heightEditText);
-        heightEditText.addTextChangedListener(heightEditTextWatcher);
-
-        EditText ageEditText =
-                (EditText) findViewById(R.id.ageEditText);
-        ageEditText.addTextChangedListener(ageEditTextWatcher);
-
-
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.allowed_food)
+        weightTextView = findViewById<View>(R.id.weightTextView) as TextView
+        heightTextView = findViewById<View>(R.id.heightTextView) as TextView
+        ageTextView = findViewById<View>(R.id.ageTextView) as TextView
+        totalTextView = findViewById<View>(R.id.totalTextView) as TextView
+        totalTextView!!.text = String.format(0.toString() + "")
+        val weightEditText = findViewById<View>(R.id.weightEditText) as EditText
+        weightEditText.addTextChangedListener(weightEditTextWatcher)
+        val heightEditText = findViewById<View>(R.id.heightEditText) as EditText
+        heightEditText.addTextChangedListener(heightEditTextWatcher)
+        val ageEditText = findViewById<View>(R.id.ageEditText) as EditText
+        ageEditText.addTextChangedListener(ageEditTextWatcher)
     }
 
-    private final TextWatcher weightEditTextWatcher = new TextWatcher() {
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-
+    private val weightEditTextWatcher: TextWatcher = object : TextWatcher {
+        override fun onTextChanged(
+            s: CharSequence, start: Int,
+            before: Int, count: Int
+        ) {
             try {
-                weight = Double.parseDouble(s.toString()) / 100;
-                weightTextView.setText(String.format(weight + ""));
-
-            } catch (NumberFormatException e) {
-                weightTextView.setText("");
-                weight = 0.0;
-
+                weight = s.toString().toDouble() / 100
+                weightTextView!!.text = String.format(weight.toString() + "")
+            } catch (e: NumberFormatException) {
+                weightTextView!!.text = ""
+                weight = 0.0
             }
-            clickedCalculate();
+            clickedCalculate()
         }
 
-        @Override
-        public void afterTextChanged(Editable s) {
-            clickedCalculate();
+        override fun afterTextChanged(s: Editable) {
+            clickedCalculate()
         }
 
-        @Override
-        public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) {
+        override fun beforeTextChanged(
+            s: CharSequence, start: Int, count: Int, after: Int
+        ) {
         }
-    };
-    private final TextWatcher heightEditTextWatcher = new TextWatcher() {
-
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-        }
-
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-
+    }
+    private val heightEditTextWatcher: TextWatcher = object : TextWatcher {
+        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+        override fun onTextChanged(
+            s: CharSequence, start: Int,
+            before: Int, count: Int
+        ) {
             try {
-                height = Double.parseDouble(s.toString()) / 100.0;
-                heightTextView.setText(String.format(height + ""));
-            } catch (NumberFormatException e) {
-                heightTextView.setText("");
-                height = 0.0;
+                height = s.toString().toDouble() / 100.0
+                heightTextView!!.text = String.format(height.toString() + "")
+            } catch (e: NumberFormatException) {
+                heightTextView!!.text = ""
+                height = 0.0
             }
-            clickedCalculate();
+            clickedCalculate()
         }
 
-        @Override
-        public void afterTextChanged(Editable s) {
-            clickedCalculate();
+        override fun afterTextChanged(s: Editable) {
+            clickedCalculate()
         }
-    };
-    private final TextWatcher ageEditTextWatcher = new TextWatcher() {
-
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-        }
-
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-
+    }
+    private val ageEditTextWatcher: TextWatcher = object : TextWatcher {
+        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+        override fun onTextChanged(
+            s: CharSequence, start: Int,
+            before: Int, count: Int
+        ) {
             try {
-                age = (int) (Integer.parseInt(s.toString()));
-                ageTextView.setText(String.format(age + ""));
-            } catch (NumberFormatException e) {
-                age = 0;
+                age = s.toString().toInt()
+                ageTextView!!.text = String.format(age.toString() + "")
+            } catch (e: NumberFormatException) {
+                age = 0
             }
-
-            clickedCalculate();
+            clickedCalculate()
         }
 
-        @Override
-        public void afterTextChanged(Editable s) {
-            clickedCalculate();
+        override fun afterTextChanged(s: Editable) {
+            clickedCalculate()
         }
-    };
-
-
-    public void clickedCalculate() {
-
-        double total = (88.362 + (13.397 * weight) + (4.799 * height)) - (5.677 * age);
-        totalTextView.setText(String.format(total + ""));
     }
 
-
+    fun clickedCalculate() {
+        val total = 88.362 + 13.397 * weight + 4.799 * height - 5.677 * age
+        totalTextView!!.text = String.format(total.toString() + "")
+    }
 }

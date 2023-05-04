@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.bmi.app-mergeDebugResources-9:/values-v24/values-v24.xml",
+            "outputFile": "com.example.bmi.app-mergeDebugResources-23:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\abedd8388bdbd55803e370bace33339f\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\67907e8eb76a598495ea8f89a3daad14\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\51dc6248837d94d69141c9e41c648705\\transformed\\appcompat-1.0.2\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kubsl\\.gradle\\caches\\transforms-3\\25aad943afff8b34c8d60e28955f3756\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

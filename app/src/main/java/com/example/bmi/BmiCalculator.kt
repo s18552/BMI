@@ -1,108 +1,94 @@
 /**
  * Jakub Słomiński, S18552
  * Kalkulator BMI
- * */
+ */
+package com.example.bmi
 
+import android.graphics.Color
+import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.View
+import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
-package com.example.bmi;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.graphics.Color;
-import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.widget.EditText;
-import android.widget.TextView;
-
-
-public class BmiCalculator extends AppCompatActivity {
-
+class BmiCalculator : AppCompatActivity() {
     //dodanie wagi oraz wzrostu i inicjalizacja defaultowych wartosci
-    private double weight = 0.0;
-    private double height = 0.0;
-    private TextView heightTextView;
-    private TextView weightTextView;
-    private TextView bmiTextView;
-
+    private var weight = 0.0
+    private var height = 0.0
+    private var heightTextView: TextView? = null
+    private var weightTextView: TextView? = null
+    private var bmiTextView: TextView? = null
 
     //przypisanie widoków na podstawie id z activity_main
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.bmi_calc);
-
-        weightTextView = (TextView) findViewById(R.id.weightTextView);
-        heightTextView = (TextView) findViewById(R.id.heightTextView);
-        bmiTextView = (TextView) findViewById(R.id.bmiTextView);
-        bmiTextView.setText(Double.toString(0.0));
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.bmi_calc)
+        weightTextView = findViewById<View>(R.id.weightTextView) as TextView
+        heightTextView = findViewById<View>(R.id.heightTextView) as TextView
+        bmiTextView = findViewById<View>(R.id.bmiTextView) as TextView
+        bmiTextView!!.text = 0.0.toString()
 
         //dodanie listenerów do pól z inputem textu
-        EditText weightEditText =
-                (EditText) findViewById(R.id.weightEditText);
-        weightEditText.addTextChangedListener(weightEditTextWatcher);
-        EditText heightEditText =
-                (EditText) findViewById(R.id.heightEditText);
-        heightEditText.addTextChangedListener(heightEditTextWatcher);
+        val weightEditText = findViewById<View>(R.id.weightEditText) as EditText
+        weightEditText.addTextChangedListener(weightEditTextWatcher)
+        val heightEditText = findViewById<View>(R.id.heightEditText) as EditText
+        heightEditText.addTextChangedListener(heightEditTextWatcher)
     }
 
     //obliczanie BMI
-    private void calculate() {
-        double bmi = weight / (height * height);
-        if(bmi>=25 || bmi<18.5) bmiTextView.setBackgroundColor(Color.parseColor("RED"));
-        else bmiTextView.setBackgroundColor(Color.parseColor("GREEN"));
-        bmiTextView.setText(Double.toString(bmi));
+    private fun calculate() {
+        val bmi = weight / (height * height)
+        if (bmi >= 25 || bmi < 18.5) bmiTextView!!.setBackgroundColor(Color.parseColor("RED")) else bmiTextView!!.setBackgroundColor(
+            Color.parseColor("GREEN")
+        )
+        bmiTextView!!.text = bmi.toString()
     }
 
     //konfiguracja listenera dla wagi
-    private final TextWatcher weightEditTextWatcher = new TextWatcher() {
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
+    private val weightEditTextWatcher: TextWatcher = object : TextWatcher {
+        override fun onTextChanged(
+            s: CharSequence, start: Int,
+            before: Int, count: Int
+        ) {
             try {
-                weight = Double.parseDouble(s.toString()) / 100.0;
-                weightTextView.setText(Double.toString(weight));
-            } catch (NumberFormatException e) {
-                weight = 0.0;
+                weight = s.toString().toDouble() / 100.0
+                weightTextView!!.text = weight.toString()
+            } catch (e: NumberFormatException) {
+                weight = 0.0
             }
-
         }
 
-        @Override
-        public void afterTextChanged(Editable s) {
+        override fun afterTextChanged(s: Editable) {}
+        override fun beforeTextChanged(
+            s: CharSequence, start: Int, count: Int, after: Int
+        ) {
         }
-
-        @Override
-        public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) {
-        }
-    };
+    }
 
     //konfiguracja listenera dla wzrostu
-    private final TextWatcher heightEditTextWatcher = new TextWatcher() {
-        @Override
-        public void onTextChanged(CharSequence s, int start,
-                                  int before, int count) {
-
+    private val heightEditTextWatcher: TextWatcher = object : TextWatcher {
+        override fun onTextChanged(
+            s: CharSequence, start: Int,
+            before: Int, count: Int
+        ) {
             try {
-                height = Double.parseDouble(s.toString()) / 100.0;
-                heightTextView.setText(Double.toString(height));
-            } catch (NumberFormatException e) {
-                height = 0.0;
+                height = s.toString().toDouble() / 100.0
+                heightTextView!!.text = height.toString()
+            } catch (e: NumberFormatException) {
+                height = 0.0
             }
         }
 
-        @Override
-        public void afterTextChanged(Editable s) {
+        override fun afterTextChanged(s: Editable) {
             //obliczanie BMI dopiero po aktualizacji pola ze wzrostem
-            calculate();
+            calculate()
         }
 
-        @Override
-        public void beforeTextChanged(
-                CharSequence s, int start, int count, int after) {
+        override fun beforeTextChanged(
+            s: CharSequence, start: Int, count: Int, after: Int
+        ) {
         }
-    };
+    }
 }
-
-
